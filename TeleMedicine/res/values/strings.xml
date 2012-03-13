@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">TeleMedicine</string>
+    <string name="localfile">Local Files</string>
+    <string name="remotefile">Remote Files</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="help">Help</string>
+    <string name="welcome">TeleMedicine Service</string>
+    <color name="white">#FFF</color>
+    <string name="empty"></string>
+    <color name="black">#000</color>
+    <string name="server_ip">Server IP</string>
+    <string name="server_port">Server Port</string>
+    <string name="local_server_port">Local Server Port</string>
+    <string name="archive_home">Repository Root</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <drawable name="black_transparent">#99000000</drawable>
+    <string name="mode">Mode</string>
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView android:id="@+id/ScrollView01" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        xmlns:android="http://schemas.android.com/apk/res/android"> 
+        <TableLayout android:id="@+id/TableLayout01" 
+            android:layout_width="fill_parent" android:layout_height="fill_parent" 
+            android:stretchColumns="0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="30dip"> 
+                <TextView android:text="Help" android:textSize="30dip" 
+                    android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="left"> 
+                </TextView>
+            </TableRow>
+       
+           <TableRow android:layout_width="fill_parent" 
+                android:layout_height="25dip"> 
+                <TextView android:text="1.Basic Controls" android:textSize="25dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Tap the menu to choose different" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+       
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    functions or enter different " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    directories. " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="40dip"> 
+                <ImageView android:id="@+id/imageView1"
+                           android:src="@drawable/menu" android:layout_gravity="left"> 
+                </ImageView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="25dip"> 
+                <TextView android:text="2.Local File Management" android:textSize="25dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Touch the thumbs of images，" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    videos or PDF files to view." android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Touch the previews of local files" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    for more than 1 second to choose" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    the options" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Touch the thumbs of live video to" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    start a real time video stream." android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="40dip"> 
+                <ImageView android:id="@+id/imageView1"
+                           android:src="@drawable/local" android:layout_gravity="left"> 
+                </ImageView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="25dip"> 
+                <TextView android:text="3.Download remote file" android:textSize="25dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Tap the file name to download" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    a particular file. The size " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    of the file is just next to the" android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    file name. " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="40dip"> 
+                <ImageView android:id="@+id/imageView1"
+                           android:src="@drawable/remote" android:layout_gravity="left"> 
+                </ImageView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="25dip"> 
+                <TextView android:text="4.Camera" android:textSize="25dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Touch the screen to focus. Long touch " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    the screen to change mode between " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    photo and video. Press the navigation " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    button of Android to take a photo or " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    record a video. " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="40dip"> 
+                <ImageView android:id="@+id/imageView1"
+                           android:src="@drawable/camera" android:layout_gravity="left"> 
+                </ImageView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="25dip"> 
+                <TextView android:text="5.Settings" android:textSize="25dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    Touch the options of settings to set " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="20dip"> 
+                <TextView android:text="    your own preference. " android:textSize="20dip" 
+                     android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                     android:layout_gravity="center|left"> 
+                </TextView>
+            </TableRow>
+            
+            <TableRow android:layout_width="fill_parent" 
+                android:layout_height="40dip"> 
+                <ImageView android:id="@+id/imageView1"
+                           android:src="@drawable/settings" android:layout_gravity="left"> 
+                </ImageView>
+            </TableRow>
+            
+     </TableLayout>
+     </ScrollView> 

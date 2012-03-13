@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@color/black">
+    <TextView 
+	    android:layout_height="wrap_content" 
+	    android:text="TextView" 
+	    android:layout_alignParentLeft="true" 
+	    android:layout_width="match_parent" 
+	    android:background="@drawable/title" 
+	    android:gravity="center_vertical|center_horizontal" 
+	    android:textSize="24sp" 
+	    android:id="@+id/textFileExplorerHeader">
+    </TextView>
+    <ListView 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/listFile" 
+	    android:layout_below="@+id/textFileExplorerHeader">
+    </ListView>
+</RelativeLayout>

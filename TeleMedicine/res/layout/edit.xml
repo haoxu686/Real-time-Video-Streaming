@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_alignParentLeft="true"  
+	    android:id="@+id/editContent" 
+	    android:text="@string/empty" 
+	    android:layout_marginBottom="10dp" 
+	    android:layout_marginLeft="10dp" 
+	    android:layout_marginRight="10dp" android:layout_width="300dp">
+    </EditText>
+    <Button 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/bSettingConfirm" 
+	    android:text="@string/ok" 
+	    android:layout_below="@+id/editContent" 
+	    android:layout_alignLeft="@+id/editContent" 
+	    android:layout_marginRight="10dp" android:layout_width="125dp">
+    </Button>
+    <Button 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/bSettingCancel" 
+	    android:text="@string/cancel" 
+	    android:layout_below="@+id/editContent" 
+	    android:layout_alignRight="@+id/editContent" 
+	    android:layout_marginLeft="10dp" 
+	    android:layout_toLeftOf="@+id/bSettingConfirm" android:layout_width="125dp">
+    </Button>
+</RelativeLayout>

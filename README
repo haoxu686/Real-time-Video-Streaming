@@ -1,0 +1,7 @@
+An simple app to stream real-time video from an Android phone to a PC.
+Two projects included.
+TeleMedicine: Mobile app to be deployed on an android phone.
+JerryMouse: A simple HTTP server side app to be deployed on a Tomcat like server.
+Other functionalities include photo/video shooting and file transfer between mobile phone and PC.
+
+Developed by Eclipse. Android SDK required.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <ImageView 
+	    android:id="@+id/imageView" 
+	    android:layout_alignParentTop="true" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content">
+	</ImageView>
+    <ZoomControls 
+	    android:layout_width="wrap_content" 
+	    android:layout_alignParentRight="true" 
+	    android:layout_height="wrap_content" 
+	    android:layout_alignParentBottom="true" 
+	    android:id="@+id/zoomControls" 
+	    android:visibility="visible">
+    </ZoomControls>
+</RelativeLayout>
